@@ -1,6 +1,6 @@
 ## This is a python 3.x project compatible only for Windows.
-## To run this you need to have a 3.x version of Python installed. To check that you have to open your cmd and to run this: 
-`python --version`
+## To run this you need to have a 3.x version of Python installed. To check that, you have to open your cmd and to run this: 
+python --version
 ## if the output is not Python 3.x you will need to download it: https://www.python.org/downloads/
 
 ## Usage:
