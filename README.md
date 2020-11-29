@@ -4,9 +4,9 @@
 ## Usage:
 [This script will take care of a process that you want. It will automatically restart it if the process is closed, and will write everything that he does in a .log file.]
 ## How to run it:
-put the script in the same folder with the app you want to open
-open your CMD
-cd ...\Watchdog (change directory to the script)
+Put the script in the same folder with the app you want to open.
+Open your CMD. 
+type: "cd ...\Watchdog" (change directory to the script's location)
 py arg1 arg2 arg3 arg4
 [arg1= watchdog.py]
 [arg2=monitorized app's location.]  **You need "" if the app has spaces in its name**
