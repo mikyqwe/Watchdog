@@ -1,7 +1,5 @@
-## This is a python 3.x project compatible only for Windows.
-## To run this you need to have a 3.x version of Python installed. To check that, you have to open your cmd and to run this: 
-python --version
-## if the output is not Python 3.x you will need to download it: https://www.python.org/downloads/
+## This is a python 3.x script compatible only for Windows.
+## To run this you need to have a 3.x version of Python installed. To check that, you have to open your cmd and to run this: "python --version". if the output is not Python 3.x you will need to download it: https://www.python.org/downloads/
 
 ## Usage:
 [This script will take care of a process that you want. It will automatically restart it if the process is closed, and will write everything that he does in a .log file.]
