@@ -52,6 +52,9 @@ if (len(sys.argv)<4):
 	logging.info(' {} arguments are not enough. To run the script you need 4 arguments [script name],[app name],[check cooldown],[logfile name].'.format(len(sys.argv)))
 	exit()
 
+LOGFILE=sys.argv[3]#the logfile that will be created and will write in it
+configLogger()
+
 PROCESS_NAME=sys.argv[1]#the process that will be monitorized
 #app not found at given location
 if os.path.exists(PROCESS_NAME)==False:
@@ -63,9 +66,6 @@ TIME=sys.argv[2]#in seconds
 if is_number(TIME)==False:
 	logging.info(' The time given as input: "{}" can not be converted to a number. The script will stop now.'.format(TIME))
 	exit()
-
-LOGFILE=sys.argv[3]#the logfile that will be created and will write in it
-configLogger()
 
 PID=executeApp()#we execute the app for the first time
 logging.info(' {} first started with the PID: {}'.format(PROCESS_NAME,PID))
